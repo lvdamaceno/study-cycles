@@ -1,0 +1,71 @@
+:root {
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#app {
+  border: 1px red solid;
+  height: 100vh;
+}
+
+/* TABLE CONTENT */
+#table {
+  width: fit-content;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#table th {
+  background-color: gray;
+  height: 30px;
+}
+
+#table tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+#table td {
+  padding: 5px 25px;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  padding: 0 1em 0 1em;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  outline: none;
+}
+
+.textColorPurple {
+  color: purple;
+}
+
+.textColorBlue {
+  color: blue;
+}
+
+.textColorYellow {
+  color: darkgoldenrod;
+}
+
+.textColorGreen {
+  color: green;
+}
+
+.textColorRed {
+  color: red;
+}
